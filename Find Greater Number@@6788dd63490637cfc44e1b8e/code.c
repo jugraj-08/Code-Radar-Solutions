@@ -11,7 +11,7 @@ int main(){
     else if (b>a){
         printf("%d",b);
     }
-     else{
+    else{
         printf("");
     }
     return 0;
