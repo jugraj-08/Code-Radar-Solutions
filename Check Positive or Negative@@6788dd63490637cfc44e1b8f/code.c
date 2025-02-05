@@ -9,7 +9,8 @@ int main(){
         printf("%d",a);
     }
     else if (a<0){
-        printf("%d",a):
+        printf("%d",a);
+    }
     else{
         printf("")
     }
