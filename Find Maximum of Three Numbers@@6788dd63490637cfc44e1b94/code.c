@@ -6,11 +6,11 @@ int main(){
     scanf("%d %d %d",a,b,c);
 
     if(a>b && a>c);
-        printf("")
+        printf("%d",a)
     if(b>c && b>a);
-        printf("")
+        printf("%d",b)
     if(c>b && c>a);
-        printf("")
+        printf("%d",c)
 
     return 0;
 
