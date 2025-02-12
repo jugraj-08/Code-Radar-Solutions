@@ -18,6 +18,6 @@ int main(){
     else{
         printf("F");
     }
-    return ;
+    return 0;
 
 }
