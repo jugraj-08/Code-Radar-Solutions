@@ -19,11 +19,11 @@ int main(){
                 printf("%d",a/b);
             }
             else{
-                printf("error");
+                printf("Error: Division by zero");
             }
             break;
         default:
-            printf("error");
+            printf("Error: Invalid operator");
 
             
     }
