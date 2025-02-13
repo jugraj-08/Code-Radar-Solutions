@@ -19,11 +19,11 @@ int main(){
                 printf("%d",a/b);
             }
             else{
-                printf("");
+                printf("%d\n");
             }
             break;
         default:
-            printf("");
+            printf("\n");
 
             
     }
