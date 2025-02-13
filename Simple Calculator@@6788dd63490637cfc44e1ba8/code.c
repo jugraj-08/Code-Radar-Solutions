@@ -22,9 +22,9 @@ int main(){
                 printf("error");
             }
             break;
-        default:
-            printf("Error: Invalid operator");
-            break;
+        // default:
+        //     printf("Error: Invalid operator");
+        //     break;
 
             
     }
