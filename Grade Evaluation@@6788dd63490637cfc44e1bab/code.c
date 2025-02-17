@@ -29,7 +29,7 @@
 
 int main(){
     char ch;
-    scanf("%c",&ch);
+    scanf("%d",&ch);
     switch (ch){
         case 'A':
             printf("Excellent");
