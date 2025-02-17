@@ -20,20 +20,3 @@ bool isPrime(int n) {
     return true;
 }
 
-int main() {
-    int num;
-    
-    // Take input for the number
-    // printf("Enter a number: ");
-    scanf("%d", &num);
-
-    // Check if the number is prime and print the result
-    if (isPrime(num)) {
-        printf("Prime\n");
-    } else {
-        printf("Not Prime\n");
-    }
-
-    return 0;
-}
-
