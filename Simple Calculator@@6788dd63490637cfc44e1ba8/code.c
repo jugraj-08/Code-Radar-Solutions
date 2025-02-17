@@ -54,6 +54,9 @@ int main(){
             printf("error");
         }
         break;
+        default:
+            printf("error");
+            break;
         }
     }
 }
