@@ -44,7 +44,7 @@ int main(){
             printf("Below Average");
             break;
         case 'F':
-            printF("Fail");
+            printf("Fail");
             break;
         default:
             printf("Invalid grade");
