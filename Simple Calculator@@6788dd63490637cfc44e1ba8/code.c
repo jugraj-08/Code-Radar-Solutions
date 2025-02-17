@@ -59,5 +59,5 @@ int main(){
             printf("error");
             break;
         }
+        return 0;
     }
-}
