@@ -30,7 +30,7 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    swith (ch){
+    switch (ch){
         case 'A':
             printf("Excellent");
             break;
