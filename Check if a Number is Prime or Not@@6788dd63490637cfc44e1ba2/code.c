@@ -55,5 +55,5 @@ int main(){
         printf("Not Prime");
     }
 
-}
+   }
 }
