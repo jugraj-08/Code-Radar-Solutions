@@ -49,7 +49,7 @@ int main(){
     if(n==1){
         printf("Not Prime");
     }
-    else if{
+    else if(a==0){
         printf("Prime");
     }
     else{
