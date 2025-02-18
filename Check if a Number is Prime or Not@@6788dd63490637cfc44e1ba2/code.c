@@ -39,22 +39,22 @@
 
 int main(){
     int n;
-    scanf("%d",&a);
-    int a=0;
-    for(int i =2;i<=n-1;i++){
+    scanf("%d",&n);
+    a=0;
+    for(int i=2; i<n-1; i++){
+        a=1;
         if(n%i==0){
-            a=1;
+            printf("Prime");
         }
+
     }
     if(n==1){
         printf("Not Prime");
     }
-    else if(a==0){
+    else if(n==0){
         printf("Prime");
     }
     else{
         printf("Not Prime");
     }
-    return 0;
-
-} 
+}
