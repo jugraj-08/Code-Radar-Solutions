@@ -1,14 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int i,j,N;
-    scanf("%d",&N);
-    for(j=5;j<=1;j++){
-        for(i=1;i>=j;i--){
+int main() {
+    int n = 5; // Height of the triangle
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++) {
             printf("*");
-            printf("\n");
-            
-
         }
+        printf("\n");
     }
+    return 0;
 }
