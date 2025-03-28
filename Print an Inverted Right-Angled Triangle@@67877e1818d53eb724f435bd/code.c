@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int main() {
-    int n = 5; // Height of the triangle
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= i; j++) {
-            printf("*");
+int main(){
+    int i,j,N;
+    scanf("%d",&N);
+    for(i=5;i>=1;i--){
+        for(j=1;j<=i;j++){
+
         }
-        printf("\n");
     }
-    return 0;
 }
