@@ -11,7 +11,7 @@ int main() {
             if (i == 1 || i == side || j == 1 || j == side) {
                 printf("*");
             } else {
-                printf("  ");
+                printf(" ");
             }
         }
         printf("\n");
