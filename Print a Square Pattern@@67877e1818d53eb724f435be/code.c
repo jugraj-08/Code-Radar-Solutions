@@ -1,19 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int i,j,N;
-    scanf("%d",&N);
-    for(i=1;i<=5;i++){
-        for(j=1;j<=5;j++){
-            if(i==1 || i==5 || j==1 || j==5){
-                printf("*");
+int main() {
+    int side, i, j;
+
+    printf("Enter the size of the square: ");
+    scanf("%d", &side);
+
+    for (i = 1; i <= side; i++) {
+        for (j = 1; j <= side; j++) {
+            if (i == 1 || i == side || j == 1 || j == side) {
+                printf("* ");
+            } else {
+                printf("  ");
             }
-            else{
-                printf("");
-            }
-            printf("\n");
-
-
         }
+        printf("\n");
     }
+
+    return 0;
 }
