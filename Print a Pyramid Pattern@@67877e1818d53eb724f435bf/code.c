@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int N, i, j, K;
+    int rows, i, j, space;
 
     
-    scanf("%d", &N);
+    scanf("%d", &rows);
 
-    for (i = 1; i <= N; i++) {
+    for (i = 1; i <= rows; i++) {
         // Print spaces
-        for (j = 1; j <= N - i; j++) {
+        for (space = 1; space <= rows - i; space++) {
             printf(" ");
         }
         // Print stars
-        for (k = 1; k <= (2 * i - 1); k++) {
+        for (j = 1; j <= (2 * i - 1); j++) {
             printf("*");
         }
         printf("\n");
