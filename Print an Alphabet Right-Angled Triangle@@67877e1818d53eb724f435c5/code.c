@@ -11,7 +11,7 @@ int main() {
     for(i = 1; i <= N; i++) {
         // Inner loop to print alphabets
         for(j = 1; j <= i; j++) {
-            printf("%c ", 'A' + j - 1); // Print characters starting from 'A'
+            printf("%c ", 'A'(65)); // Print characters starting from 'A'
         }
         printf("\n"); // Move to the next line after each row
     }
