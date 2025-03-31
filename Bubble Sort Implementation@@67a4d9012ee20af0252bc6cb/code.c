@@ -1,5 +1,6 @@
 void bubblesort(int arr[] , int n){
-    int i,j;
+    int i,j,n;
+    scanf("%d" , &n);
 
 
     for(i=0 ; i<n-1 ; i++){
