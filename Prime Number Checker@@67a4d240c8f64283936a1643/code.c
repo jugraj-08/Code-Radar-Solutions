@@ -4,3 +4,4 @@ int isPrime(int n) {
         if (n % i == 0) return 0; // If divisible, not prime
     }
     return 1; // Otherwise, prime
+}
