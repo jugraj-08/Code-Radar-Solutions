@@ -2,7 +2,7 @@ int fibonacciSeries(int x){
     int a = 0;
     int b = 1;
     int c = a+b;
-    for(int i = 0 ; i<=x ; i++){
+    for(int i = 0 ; i<x ; i++){
         if (i==0){
             printf("0 ");
         }
