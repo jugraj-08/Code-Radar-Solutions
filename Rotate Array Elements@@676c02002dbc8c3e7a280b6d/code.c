@@ -26,12 +26,12 @@ int main() {
     scanf("%d", &n);
     int arr[n];
 
-    printf("Enter the array elements:\n");
+    
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    printf("Enter the number of positions to rotate: ");
+    
     scanf("%d", &k);
 
     rotateArray(arr, n, k);
