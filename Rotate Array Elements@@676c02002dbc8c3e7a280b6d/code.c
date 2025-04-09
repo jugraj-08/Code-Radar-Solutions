@@ -1,46 +1,48 @@
 #include <stdio.h>
 
 void rotateArray(int arr[], int n, int k) {
-    k = k % n; // Adjust k if it's greater than the array size
-    int temp[k]; // Temporary array to store the elements to be rotated
+    k = k % n; // Handle cases where K > N
 
-    // Store the last k elements in temp
     for (int i = 0; i < k; i++) {
-        temp[i] = arr[n - k + i];
-    }
+        int last = arr[n - 1]; // Save the last element
 
-    // Shift the rest of the array to the right
-    for (int i = n - 1; i >= k; i--) {
-        arr[i] = arr[i - k];
-    }
+        // Shift elements to the right
+        for (int j = n - 1; j > 0; j--) {
+            arr[j] = arr[j - 1];
+        }
 
-    // Place the elements from temp at the beginning
-    for (int i = 0; i < k; i++) {
-        arr[i] = temp[i];
+        arr[0] = last; // Place the last element at the start
     }
 }
 
 int main() {
     int n, k;
-    
+
+    // Input the size of the array
+    printf("Enter the size of the array: ");
     scanf("%d", &n);
+
     int arr[n];
 
-    
+    // Input the array elements
+    printf("Enter the array elements: ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    
+    // Input the number of positions to rotate
+    printf("Enter the number of positions to rotate: ");
     scanf("%d", &k);
 
+    // Rotate the array
     rotateArray(arr, n, k);
 
-    
+    // Output the rotated array
+    printf("Rotated Array: ");
     for (int i = 0; i < n; i++) {
-        printf("%d\n", arr[i]);
+        printf("%d ", arr[i]);
     }
-    
 
     return 0;
 }
+
