@@ -19,26 +19,26 @@ int main() {
     int n, k;
 
     // Input the size of the array
-    printf("Enter the size of the array: ");
+    
     scanf("%d", &n);
 
     int arr[n];
 
     // Input the array elements
-    printf("Enter the array elements: ");
+    
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
     // Input the number of positions to rotate
-    printf("Enter the number of positions to rotate: ");
+    
     scanf("%d", &k);
 
     // Rotate the array
     rotateArray(arr, n, k);
 
     // Output the rotated array
-    printf("Rotated Array: ");
+    
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
